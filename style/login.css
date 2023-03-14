@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0080ff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.judul {
+    position: absolute;
+    width: 127px;
+    height: 27px;
+    left: 70px;
+    top: 18px;
+
+}
+
+.navbar {
+    display: inline-block;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    left: 120px;
+}
+
+.navlink {
+    margin-left: 20px;
+}
+
+.container {
+    position: absolute;
+    width: 600px;
+    height: 538px;
+    left: 350px;
+    top: 102px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.content {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.paragraf {
+    position: absolute;
+    width: 229px;
+    left: 0;
+    font-weight: 250;
+    font-size: 25px;
+    line-height: 24px;
+}
+
+input {
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+}
+
+.masuk {
+    border-bottom: outset;
+}
+
+
+.biru {
+    background-color: #0080FF;
+    position: absolute;
+    width: 200px;
+    height: 63px;
+    left: 1px;
+    top: 250px;
+    border-radius: 15px;
+    color: white;
+}
+
+.putih {
+    background-color: #FFFFFF;
+    position: relative;
+    width: 200px;
+    height: 63px;
+    left: 1px;
+    top: 130px;
+    border-radius: 15px;
+    border-color: #0080FF;
+    color: #0080FF;
+}
+
+.daftar {
+    position: absolute;
+    width: 229px;
+    height: 55px;
+    left: 25px;
+    top: 410px;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.daftar a{
+    color: blue;
+}
