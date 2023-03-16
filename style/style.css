@@ -1,20 +1,24 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     background-color: #ECECEC;
 }
 
-.container{
+.container-luar {
+    position: relative;
+}
+
+.container {
     position: absolute;
     left: 450px;
     top: 20px;
     font-size: 30px;
 }
 
-.content{
+.content {
     position: absolute;
     width: 293px;
     height: 293px;
@@ -24,7 +28,7 @@ body{
     border-radius: 40px;
 }
 
-.wrapper{
+.wrapper {
     background-color: white;
     width: 293px;
     height: 150px;
@@ -33,26 +37,30 @@ body{
     border-radius: 40px;
 }
 
-.judul{
-    text-align: center;
-    font-weight: 700;
+.judul {
+    position: absolute;
+    font-weight: 300;
+    font-size: 27px;
+    right: 90px;
+    bottom: 105px;
+    color: black;
 }
 
-button{
+button {
     position: absolute;
     width: 150px;
     height: 50px;
     left: 75px;
     border: none;
     top: 50px;
-    background-color:#0080FF ;
+    background-color: #0080FF;
     border-radius: 15px;
     font-weight: 700;
     font-size: 30px;
     color: white;
 }
 
-.content-centre{
+.content-centre {
     width: 293px;
     height: 293px;
     background-color: #C4C4C4;
@@ -63,7 +71,7 @@ button{
 }
 
 
-.content-right{
+.content-right {
     width: 293px;
     height: 293px;
     background-color: #C4C4C4;
@@ -74,7 +82,7 @@ button{
 }
 
 
-.content-down-left{
+.content-down-left {
     width: 293px;
     height: 293px;
     background-color: #C4C4C4;
@@ -85,7 +93,7 @@ button{
 }
 
 
-.content-down-centre{
+.content-down-centre {
     width: 293px;
     height: 293px;
     background-color: #C4C4C4;
@@ -95,7 +103,7 @@ button{
     border-radius: 40px;
 }
 
-.content-down-right{
+.content-down-right {
     width: 293px;
     height: 293px;
     background-color: #C4C4C4;
@@ -104,3 +112,4 @@ button{
     top: 450px;
     border-radius: 40px;
 }
+
