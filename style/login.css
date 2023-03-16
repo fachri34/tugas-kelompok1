@@ -52,7 +52,7 @@ a{
 }
 
 .paragraf {
-    position: absolute;
+    
     width: 229px;
     left: 0;
     font-weight: 250;
@@ -79,9 +79,11 @@ input {
     width: 200px;
     height: 63px;
     left: 1px;
-    top: 250px;
+    bottom: 0;
+    top: 270px;
     border-radius: 15px;
     color: white;
+    border: none;
 }
 
 .putih {
@@ -89,7 +91,6 @@ input {
     position: relative;
     width: 200px;
     height: 63px;
-    left: 1px;
     top: 130px;
     border-radius: 15px;
     border-color: #0080FF;
@@ -101,11 +102,25 @@ input {
     width: 229px;
     height: 55px;
     left: 25px;
-    top: 410px;
+    top: 430px;
     font-size: 15px;
     line-height: 17px;
 }
 
 .daftar a{
     color: blue;
+}
+
+.atau{
+    position: absolute;
+    top: 330px;
+    left: 70px;
+    bottom: 0;
+    font-size: smaller;
+    color: grey;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 700;
 }
