@@ -23,7 +23,7 @@ body {
     width: 293px;
     height: 293px;
     background-color: #C4C4C4;
-    left: 165px;
+    left: 225px;
     top: 100px;
     border-radius: 40px;
 }
@@ -76,7 +76,7 @@ button {
     height: 293px;
     background-color: #C4C4C4;
     position: absolute;
-    left: 930px;
+    left: 870px;
     top: 100px;
     border-radius: 40px;
 }
@@ -87,7 +87,7 @@ button {
     height: 293px;
     background-color: #C4C4C4;
     position: absolute;
-    left: 165px;
+    left: 225px;
     top: 450px;
     border-radius: 40px;
 }
@@ -108,7 +108,7 @@ button {
     height: 293px;
     background-color: #C4C4C4;
     position: absolute;
-    left: 930px;
+    left: 870px;
     top: 450px;
     border-radius: 40px;
 }
