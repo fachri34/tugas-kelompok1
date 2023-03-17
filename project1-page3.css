@@ -1,28 +1,27 @@
-*{ }
-body{
-    background-color: transparent;
-}
-.bawah{
-    position: relative;
+
+.bawah2{
+    position: absolute;
     width: 1520px;
-    height: 400px;
+    height: 200px;
+    top: 3062px;
     background-color: yellow;
     display: inline-block;
+    
 }
 
-.kiri{
+.kiri2{
     position: absolute;
     width: 50%;
-    height: 400px;
+    height: 200px;
     background-color: #ECECEC;
     border: none;
     text-align: right;
 
 }
-.kanan{
+.kanan2{
     position: absolute;
     width: 50%;
-    height: 400px;
+    height: 200px;
     left: 760px;
     background-color: #ECECEC;
     border: none;
@@ -34,15 +33,15 @@ body{
    
 }
 img{
-    margin-top: 35px;
+    margin-top: 20px;
     margin-right: 20px;
     width: 250px;
 }
 .txt{
    margin-right: 20px;
 }
-.b1{
-    margin-left: 20px;
+.baja{
+    position: absolute;
     width: 150px;
     height: 40px;
     border-radius: 8px;
@@ -50,17 +49,20 @@ img{
     color: white;
     font-size: 17px;
     border: #0080FF;
+    top: 195px;
 }
-.b2{
-    margin-left: 20px;
+.baja2{
+
     width: 150px;
     height: 40px;
     border-radius: 8px;  
-    margin-top: 20px; 
+    margin-top: 0; 
     background-color: transparent;
     color: #0080FF;
     border-color: #0080FF;
+    border: solid;
     font-size: 17px; 
+    top: 250px;
 }
 .tekskontak{
     margin-left: 20px;
